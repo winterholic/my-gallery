@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Gallery</title>
+    
+    <!-- Google Fonts: Outfit for a modern, trendy look -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <header class="header">
+        <h1 id="gallery-title">Gallery</h1>
+        <p class="subtitle">Click an image to copy its URL</p>
+    </header>
+
+    <main class="gallery-container" id="gallery">
+        <!-- Images will be injected here by script.js -->
+    </main>
+
+    <div id="toast" class="toast hidden">URL Copied!</div>
+
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
