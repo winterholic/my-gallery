@@ -18,7 +18,6 @@
     "신창섭8.jpg",
     "신창섭9.jpg",
     "facereview-logo.svg",
-    "logo.svg",
-    "profile.jpg"
+    "logo.svg"
   ]
 };
