@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- background -->
+  <rect width="64" height="64" rx="12" fill="#020617"></rect>
+
+  <!-- image frame -->
+  <rect x="14" y="16" width="36" height="28" rx="4" fill="none" stroke="#E5E7EB" stroke-width="3"></rect>
+
+  <!-- mountain -->
+  <path d="M18 40 L28 28 L36 36 L44 26 L50 40 Z" fill="#38BDF8"></path>
+
+  <!-- sun -->
+  <circle cx="24" cy="24" r="3" fill="#FACC15"></circle>
+
+  <!-- link dot -->
+  <circle cx="48" cy="46" r="3" fill="#22C55E"></circle>
+</svg>
